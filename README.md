@@ -11,7 +11,7 @@ This project is a simple calculator application built using JavaScript. The app 
 
 ## Features:
 
-~ Basic Operations: Perform addition, subtraction, multiplication, and division.
+~ Basic Operations: Perform addition, subtraction and multiplication.
 
 ~ Memory Functions: Save to memory (M+), recall from memory (MR), and clear memory (MC).
 
