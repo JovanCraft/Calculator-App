@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# JavaScript Calculator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This project is a simple calculator application built using JavaScript. The app allows users to perform basic arithmetic operations, manage memory, and change operations dynamically. The project explores the use of the useReducer hook in React, highlighting the reducer pattern for managing state.
 
-In the project directory, you can run:
+## Table of Contents:
 
-### `npm start`
+~ Features
+~ Getting Started
+~ Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+~ Basic Operations: Perform addition, subtraction, multiplication, and division.
 
-### `npm test`
+~ Memory Functions: Save to memory (M+), recall from memory (MR), and clear memory (MC).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+~ Dynamic Operations: Change the current operation dynamically and apply numbers accordingly.
 
-### `npm run build`
+~ Clear Display: Reset the total value to zero using the CE button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+~ Responsive UI: A clean and responsive user interface for a seamless experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started:
 
-### `npm run eject`
+To get started with the project, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+~ Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/JovanCraft/Calculator-App.git
+cd calculator-app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+~ Install dependencies:
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+~ Run the application:
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+The app will be available at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage:
 
-### Making a Progressive Web App
+~ Performing Calculations: Use the buttons to enter numbers and operations. The display will show the current total.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+~ Using Memory Functions: Save the current total to memory using M+, recall it using MR, and clear the memory with MC.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+~ Clearing the Display: Use the CE button to reset the total value to zero.
