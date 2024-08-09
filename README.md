@@ -51,3 +51,6 @@ The app will be available at http://localhost:3000.
 ~ Using Memory Functions: Save the current total to memory using M+, recall it using MR, and clear the memory with MC.
 
 ~ Clearing the Display: Use the CE button to reset the total value to zero.
+
+
+
